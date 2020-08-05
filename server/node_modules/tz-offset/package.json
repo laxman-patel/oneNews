@@ -1,0 +1,33 @@
+{
+  "name": "tz-offset",
+  "version": "0.0.1",
+  "description": "Javascript Timezone Offset",
+  "main": "src/tz-offset.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merencia/tz-offset.git"
+  },
+  "keywords": [
+    "timezone",
+    "offset",
+    "time",
+    "zone"
+  ],
+  "author": "Lucas Merencia <lucas@merencia.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merencia/tz-offset/issues"
+  },
+  "homepage": "https://github.com/merencia/tz-offset#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2"
+  }
+}
