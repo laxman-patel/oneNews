@@ -9,7 +9,9 @@
   let promise = getContent();
 
   async function getContent() {
-    let data = await axios.get(`http://localhost:3000/news/id/${params.id}`);
+    let data = await axios.get(
+      `http://155.138.207.40:3000/news/id/${params.id}`
+    );
 
     return data.data[0];
   }
