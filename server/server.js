@@ -1,11 +1,13 @@
 import express from "express";
 import cron from "node-cron";
+import cors from "cors";
 const app = express();
 
 import routes from "./routes/routes.js";
 import mainFunc from "./logic/mainFunc.js";
 const PORT = 3000;
 
+app.use(cors());
 app.use("/", routes);
 
 mainFunc();

@@ -9,6 +9,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "cron": "^1.8.2",
     "express": "^4.17.1",
     "got": "^11.5.1",

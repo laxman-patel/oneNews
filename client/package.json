@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "dev": "rollup -c -w ",
     "start": "sirv public"
   },
   "devDependencies": {
@@ -16,6 +16,14 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
+    "axios": "^0.19.2",
+    "bounds.js": "^1.0.4",
+    "dotenv": "^8.2.0",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "sirv-cli": "^1.0.0",
+    "svelte-preprocess": "^4.0.10",
+    "svelte-spa-router": "^2.2.0"
   }
 }

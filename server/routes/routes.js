@@ -19,4 +19,12 @@ router.get("/news/:category/", async (req, res) => {
   res.send({ data, totalPages: Math.ceil(count / limit), currentPage: page });
 });
 
+router.get("/news/id/:id", async (req, res) => {
+  const { id } = req.params;
+
+  const data = await News.find({ _id: id });
+
+  res.json(data);
+});
+
 export default router;
