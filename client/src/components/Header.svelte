@@ -2,14 +2,13 @@
   import axios from "axios";
   import moment from "moment";
   const API_KEY = "e6d70bb7ae095433f0d93b9543246afe";
-  "api.openweathermap.org/data/2.5/weather";
 
   let temp = `-`;
 
   async function getTemp(lat, lon) {
     try {
       const response = await axios.get(
-        "http://api.openweathermap.org/data/2.5/weather",
+        "https://api.openweathermap.org/data/2.5/weather",
         {
           params: {
             lat,
