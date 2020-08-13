@@ -21,7 +21,7 @@
 
   async function getNews(page = 1, selection = "topnews", limit = 10) {
     const response = await axios.get(
-      `http://155.138.207.40:3000/news/${selection}`,
+      `https://api.onenews.media/news/${selection}`,
       {
         params: {
           page,

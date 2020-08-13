@@ -10,7 +10,7 @@
 
   async function getContent() {
     let data = await axios.get(
-      `http://155.138.207.40:3000/news/id/${params.id}`
+      `https://api.onenews.media/news/id/${params.id}`
     );
 
     return data.data[0];
