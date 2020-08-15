@@ -168,10 +168,12 @@
     on:change={() => {
       onSelectionchange();
     }}>
-    <option value="topnews">TOP</option>
-    <option value="sportsnews">SPORTS</option>
-    <option value="technews">TECH</option>
-    <option value="marketnews">BUSINESS</option>
+    <option value="topnews">World</option>
+    <option value="sportsnews">Sports</option>
+    <option value="technews">Tech</option>
+    <option value="marketnews">Business</option>
+    <option value="indianews">India</option>
+    <option value="healthnews">Health</option>
   </select>
 
   <ul>
